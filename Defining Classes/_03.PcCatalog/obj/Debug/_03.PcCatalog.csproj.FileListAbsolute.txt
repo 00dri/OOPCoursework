@@ -1,0 +1,6 @@
+C:\Users\aI\Documents\Visual Studio 2012\Projects\Homework_OOP_Defining Classes\_03.PcCatalog\bin\Debug\_03.PcCatalog.exe.config
+C:\Users\aI\Documents\Visual Studio 2012\Projects\Homework_OOP_Defining Classes\_03.PcCatalog\bin\Debug\_03.PcCatalog.exe
+C:\Users\aI\Documents\Visual Studio 2012\Projects\Homework_OOP_Defining Classes\_03.PcCatalog\bin\Debug\_03.PcCatalog.pdb
+C:\Users\aI\Documents\Visual Studio 2012\Projects\Homework_OOP_Defining Classes\_03.PcCatalog\obj\Debug\_03.PcCatalog.exe
+C:\Users\aI\Documents\Visual Studio 2012\Projects\Homework_OOP_Defining Classes\_03.PcCatalog\obj\Debug\_03.PcCatalog.pdb
+C:\Users\aI\Documents\Visual Studio 2012\Projects\Homework_OOP_Defining Classes\_03.PcCatalog\obj\Debug\_03.PcCatalog.csprojResolveAssemblyReference.cache

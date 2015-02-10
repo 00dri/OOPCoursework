@@ -1,0 +1,5 @@
+C:\Users\aI\Documents\Visual Studio 2012\Projects\InheritanceAndAbstractionHomework\_01.School\bin\Debug\_01.School.exe.config
+C:\Users\aI\Documents\Visual Studio 2012\Projects\InheritanceAndAbstractionHomework\_01.School\bin\Debug\_01.School.exe
+C:\Users\aI\Documents\Visual Studio 2012\Projects\InheritanceAndAbstractionHomework\_01.School\bin\Debug\_01.School.pdb
+C:\Users\aI\Documents\Visual Studio 2012\Projects\InheritanceAndAbstractionHomework\_01.School\obj\Debug\_01.School.exe
+C:\Users\aI\Documents\Visual Studio 2012\Projects\InheritanceAndAbstractionHomework\_01.School\obj\Debug\_01.School.pdb

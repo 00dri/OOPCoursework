@@ -1,0 +1,6 @@
+C:\Users\aI\Documents\Visual Studio 2012\Projects\EncapsulationAndPolymorphismHomework\_01.Shapes\bin\Debug\_01.Shapes.exe.config
+C:\Users\aI\Documents\Visual Studio 2012\Projects\EncapsulationAndPolymorphismHomework\_01.Shapes\bin\Debug\_01.Shapes.exe
+C:\Users\aI\Documents\Visual Studio 2012\Projects\EncapsulationAndPolymorphismHomework\_01.Shapes\bin\Debug\_01.Shapes.pdb
+C:\Users\aI\Documents\Visual Studio 2012\Projects\EncapsulationAndPolymorphismHomework\_01.Shapes\obj\Debug\_01.Shapes.csprojResolveAssemblyReference.cache
+C:\Users\aI\Documents\Visual Studio 2012\Projects\EncapsulationAndPolymorphismHomework\_01.Shapes\obj\Debug\_01.Shapes.exe
+C:\Users\aI\Documents\Visual Studio 2012\Projects\EncapsulationAndPolymorphismHomework\_01.Shapes\obj\Debug\_01.Shapes.pdb

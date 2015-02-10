@@ -1,0 +1,6 @@
+C:\Users\aI\Documents\Visual Studio 2012\Projects\Homework_OOP_Defining Classes\_04.SoftUniLearningSystem\bin\Debug\_04.SoftUniLearningSystem.exe.config
+C:\Users\aI\Documents\Visual Studio 2012\Projects\Homework_OOP_Defining Classes\_04.SoftUniLearningSystem\bin\Debug\_04.SoftUniLearningSystem.exe
+C:\Users\aI\Documents\Visual Studio 2012\Projects\Homework_OOP_Defining Classes\_04.SoftUniLearningSystem\bin\Debug\_04.SoftUniLearningSystem.pdb
+C:\Users\aI\Documents\Visual Studio 2012\Projects\Homework_OOP_Defining Classes\_04.SoftUniLearningSystem\obj\Debug\_04.SoftUniLearningSystem.exe
+C:\Users\aI\Documents\Visual Studio 2012\Projects\Homework_OOP_Defining Classes\_04.SoftUniLearningSystem\obj\Debug\_04.SoftUniLearningSystem.pdb
+C:\Users\aI\Documents\Visual Studio 2012\Projects\Homework_OOP_Defining Classes\_04.SoftUniLearningSystem\obj\Debug\_04.SoftUniLearningSystem.csprojResolveAssemblyReference.cache

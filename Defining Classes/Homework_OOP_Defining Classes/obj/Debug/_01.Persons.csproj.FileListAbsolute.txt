@@ -1,0 +1,6 @@
+C:\Users\aI\Documents\Visual Studio 2012\Projects\Homework_OOP_Defining Classes\Homework_OOP_Defining Classes\bin\Debug\Homework_OOP_Defining Classes.exe.config
+C:\Users\aI\Documents\Visual Studio 2012\Projects\Homework_OOP_Defining Classes\Homework_OOP_Defining Classes\bin\Debug\Homework_OOP_Defining Classes.exe
+C:\Users\aI\Documents\Visual Studio 2012\Projects\Homework_OOP_Defining Classes\Homework_OOP_Defining Classes\bin\Debug\Homework_OOP_Defining Classes.pdb
+C:\Users\aI\Documents\Visual Studio 2012\Projects\Homework_OOP_Defining Classes\Homework_OOP_Defining Classes\obj\Debug\_01.Persons.csprojResolveAssemblyReference.cache
+C:\Users\aI\Documents\Visual Studio 2012\Projects\Homework_OOP_Defining Classes\Homework_OOP_Defining Classes\obj\Debug\Homework_OOP_Defining Classes.exe
+C:\Users\aI\Documents\Visual Studio 2012\Projects\Homework_OOP_Defining Classes\Homework_OOP_Defining Classes\obj\Debug\Homework_OOP_Defining Classes.pdb
