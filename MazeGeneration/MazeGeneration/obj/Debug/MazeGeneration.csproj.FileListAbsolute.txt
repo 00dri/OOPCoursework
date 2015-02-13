@@ -1,6 +1,0 @@
-C:\Users\aI\Documents\Visual Studio 2012\Projects\MazeGeneration\MazeGeneration\bin\Debug\MazeGeneration.exe.config
-C:\Users\aI\Documents\Visual Studio 2012\Projects\MazeGeneration\MazeGeneration\bin\Debug\MazeGeneration.exe
-C:\Users\aI\Documents\Visual Studio 2012\Projects\MazeGeneration\MazeGeneration\bin\Debug\MazeGeneration.pdb
-C:\Users\aI\Documents\Visual Studio 2012\Projects\MazeGeneration\MazeGeneration\obj\Debug\MazeGeneration.csprojResolveAssemblyReference.cache
-C:\Users\aI\Documents\Visual Studio 2012\Projects\MazeGeneration\MazeGeneration\obj\Debug\MazeGeneration.exe
-C:\Users\aI\Documents\Visual Studio 2012\Projects\MazeGeneration\MazeGeneration\obj\Debug\MazeGeneration.pdb
