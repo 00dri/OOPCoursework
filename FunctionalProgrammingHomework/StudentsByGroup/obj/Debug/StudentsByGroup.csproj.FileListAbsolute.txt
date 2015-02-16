@@ -1,0 +1,6 @@
+C:\Users\aI\Documents\Visual Studio 2012\Projects\FunctionalProgrammingHomework\StudentsByGroup\bin\Debug\StudentsByGroup.exe.config
+C:\Users\aI\Documents\Visual Studio 2012\Projects\FunctionalProgrammingHomework\StudentsByGroup\bin\Debug\StudentsByGroup.exe
+C:\Users\aI\Documents\Visual Studio 2012\Projects\FunctionalProgrammingHomework\StudentsByGroup\bin\Debug\StudentsByGroup.pdb
+C:\Users\aI\Documents\Visual Studio 2012\Projects\FunctionalProgrammingHomework\StudentsByGroup\obj\Debug\StudentsByGroup.csprojResolveAssemblyReference.cache
+C:\Users\aI\Documents\Visual Studio 2012\Projects\FunctionalProgrammingHomework\StudentsByGroup\obj\Debug\StudentsByGroup.exe
+C:\Users\aI\Documents\Visual Studio 2012\Projects\FunctionalProgrammingHomework\StudentsByGroup\obj\Debug\StudentsByGroup.pdb
