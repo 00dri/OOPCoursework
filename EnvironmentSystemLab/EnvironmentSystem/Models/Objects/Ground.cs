@@ -11,6 +11,7 @@
             : base(x, y, width, height)
         {
             this.ImageProfile = this.GenerateImageProfile();
+            this.CollisionGroup = CollisionGroup.Ground;
         }
 
         protected virtual char[,] GenerateImageProfile()

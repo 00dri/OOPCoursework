@@ -6,6 +6,8 @@
     public enum CollisionGroup
     {
         Nothing = 0,
-        Snowflake = 1
+        Snowflake = 1,
+        Ground = 2,
+        FallenSnow = 3
     }
 }

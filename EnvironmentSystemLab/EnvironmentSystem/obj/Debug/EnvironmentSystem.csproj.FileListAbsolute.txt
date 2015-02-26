@@ -1,0 +1,6 @@
+C:\Users\aI\Documents\GitHub\OOPCoursework\EnvironmentSystemLab\EnvironmentSystem\bin\Debug\EnvironmentSystem.exe.config
+C:\Users\aI\Documents\GitHub\OOPCoursework\EnvironmentSystemLab\EnvironmentSystem\bin\Debug\EnvironmentSystem.exe
+C:\Users\aI\Documents\GitHub\OOPCoursework\EnvironmentSystemLab\EnvironmentSystem\bin\Debug\EnvironmentSystem.pdb
+C:\Users\aI\Documents\GitHub\OOPCoursework\EnvironmentSystemLab\EnvironmentSystem\obj\Debug\EnvironmentSystem.csprojResolveAssemblyReference.cache
+C:\Users\aI\Documents\GitHub\OOPCoursework\EnvironmentSystemLab\EnvironmentSystem\obj\Debug\EnvironmentSystem.exe
+C:\Users\aI\Documents\GitHub\OOPCoursework\EnvironmentSystemLab\EnvironmentSystem\obj\Debug\EnvironmentSystem.pdb
