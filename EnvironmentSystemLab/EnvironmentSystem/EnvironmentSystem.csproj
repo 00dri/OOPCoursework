@@ -52,10 +52,13 @@
     <Compile Include="Interfaces\IRenderer.cs" />
     <Compile Include="Models\CollisionInfo.cs" />
     <Compile Include="Models\Objects\FallenSnow.cs" />
+    <Compile Include="Models\Objects\FallingStar.cs" />
+    <Compile Include="Models\Objects\FallingStarTail.cs" />
     <Compile Include="Models\Objects\Ground.cs" />
     <Compile Include="Models\CollisionGroup.cs" />
     <Compile Include="Models\Objects\MovingObject.cs" />
     <Compile Include="Models\Objects\Snowflake.cs" />
+    <Compile Include="Models\Objects\Star.cs" />
     <Compile Include="Models\Point.cs" />
     <Compile Include="Models\Data.Structures\QuadTree.cs" />
     <Compile Include="Models\Data.Structures\Rectangle.cs" />
@@ -65,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
