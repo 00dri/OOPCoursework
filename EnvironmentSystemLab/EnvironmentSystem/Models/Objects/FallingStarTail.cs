@@ -19,6 +19,7 @@ namespace EnvironmentSystem.Models.Objects
         {
             this.LifeTime = lifeTime;
             this.ImageProfile = new char[,]{{TailImage}};
+            this.CollisionGroup = CollisionGroup.FallingStarTail;
         }
 
         public FallingStarTail(Rectangle bounds, int lifeTime) : base(bounds)

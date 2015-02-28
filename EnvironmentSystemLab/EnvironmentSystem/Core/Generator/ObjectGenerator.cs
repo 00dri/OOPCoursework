@@ -2,7 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
-
+    using System.Threading;
     using EnvironmentSystem.Models;
     using EnvironmentSystem.Models.Objects;
 
@@ -25,14 +25,15 @@
         public void Initiliaze(List<EnvironmentObject> objects)
         {
             var rnd = new Random();
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 40; i++)
             {
                 int x = rnd.Next(0, this.WorldWidth);
-                int y = rnd.Next(0, 15);
+                int y = rnd.Next(0, 20);
                 objects.Add(new Star(x, y));
             }
-            objects.Add(new FallingStar(30, 5, new Point(-1, 1)));
             objects.Add(new Ground(0, 25, 50, 2));
+            objects.Add(new UnstableStar(20, 5, new Point(-1, 1)));
+            objects.Add(new FallingStar(30, 5, new Point(-1, 1)));
         }
 
         /// <summary>

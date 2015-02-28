@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Core\CollisionHandler.cs" />
     <Compile Include="Core\ConsoleRenderer.cs" />
+    <Compile Include="Core\ExtendedEngine.cs" />
     <Compile Include="Core\Generator\ObjectGenerator.cs" />
     <Compile Include="Core\Engine.cs" />
     <Compile Include="Interfaces\ICollidable.cs" />
@@ -51,6 +52,7 @@
     <Compile Include="Interfaces\IRenderable.cs" />
     <Compile Include="Interfaces\IRenderer.cs" />
     <Compile Include="Models\CollisionInfo.cs" />
+    <Compile Include="Models\Objects\Explosion.cs" />
     <Compile Include="Models\Objects\FallenSnow.cs" />
     <Compile Include="Models\Objects\FallingStar.cs" />
     <Compile Include="Models\Objects\FallingStarTail.cs" />
@@ -59,6 +61,7 @@
     <Compile Include="Models\Objects\MovingObject.cs" />
     <Compile Include="Models\Objects\Snowflake.cs" />
     <Compile Include="Models\Objects\Star.cs" />
+    <Compile Include="Models\Objects\UnstableStar.cs" />
     <Compile Include="Models\Point.cs" />
     <Compile Include="Models\Data.Structures\QuadTree.cs" />
     <Compile Include="Models\Data.Structures\Rectangle.cs" />

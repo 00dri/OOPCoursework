@@ -6,7 +6,7 @@
     {
         static void Main()
         {
-            var engine = new Engine();
+            var engine = new ExtendedEngine();
             engine.Run();
         }
     }

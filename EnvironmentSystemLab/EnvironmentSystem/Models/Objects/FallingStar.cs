@@ -10,13 +10,15 @@
             : base(x, y, 1, 1, direction)
         {
             this.ImageProfile = new char[,]{{FallingStarImage}};
+            this.CollisionGroup = Models.CollisionGroup.Star;
         }
 
         public override void RespondToCollision(CollisionInfo collisionInfo)
         {
             var collidedObject = collisionInfo.HitObject;
             if (collidedObject.CollisionGroup == CollisionGroup.Ground ||
-                collidedObject.CollisionGroup == CollisionGroup.FallenSnow)
+                collidedObject.CollisionGroup == CollisionGroup.FallenSnow ||
+                collidedObject.CollisionGroup == CollisionGroup.Explosion)
             {
                 this.Exists = false;
             }
