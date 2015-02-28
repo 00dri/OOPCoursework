@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Simulator\ExtendedFarmSimulator.cs" />
     <Compile Include="Units\Animal.cs" />
     <Compile Include="Simulator\FarmSimulator.cs" />
     <Compile Include="Units\CherryTree.cs" />

@@ -32,5 +32,11 @@
             get { return this.productType; }
             set { this.productType = value; }
         }
+
+        public override string ToString()
+        {
+            return string.Format("{0}, Quantity: {1}, Product Type: {2}", base.ToString(), this.Quantity,
+                this.ProductType);
+        }
     }
 }

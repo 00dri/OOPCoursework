@@ -21,5 +21,10 @@ namespace FarmersCreed.Units
         public int ProductionQuantity{ get; set; }
 
         public abstract Product GetProduct();
+
+        public override string ToString()
+        {
+            return string.Format("{0}, {1}", base.ToString(), this.IsAlive ? "Health: " + this.Health : "DEAD");
+        }
     }
 }

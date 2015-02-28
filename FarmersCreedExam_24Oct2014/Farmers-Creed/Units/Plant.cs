@@ -6,7 +6,6 @@
             : base(id, health, productionQuantity)
         {
             this.GrowTime = growTime;
-
         }
 
         public bool HasGrown
@@ -29,6 +28,15 @@
         public virtual void Grow()
         {
             this.GrowTime--;
+        }
+
+        public override string ToString()
+        {
+            if (IsAlive)
+            {
+                return string.Format("{0}, {1}", base.ToString(), this.HasGrown ? "Grown: " + "Yes" : "NO");
+            }
+            return base.ToString();
         }
     }
 }

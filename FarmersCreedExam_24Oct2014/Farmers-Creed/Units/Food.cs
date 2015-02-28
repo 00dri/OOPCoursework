@@ -25,5 +25,11 @@
             get { return this.healthEffect; }
             set { this.healthEffect = value; }
         }
+
+        public override string ToString()
+        {
+            return string.Format("{0}, Food Type: {1}, Health Effect: {2}", base.ToString(), this.FoodType,
+                this.HealthEffect);
+        }
     }
 }
