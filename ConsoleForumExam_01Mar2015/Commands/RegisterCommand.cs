@@ -41,8 +41,8 @@
                             throw new CommandException(Messages.RegAdminNotAllowed);
                         }
 
-                        // TODO: Implement administrator 
-                        throw new NotImplementedException();
+                         user = new Administrator(users.Count + 1, username, password, email);
+                        break;
                     default:
                         user = new User(users.Count + 1, username, password, email);
                         break;
