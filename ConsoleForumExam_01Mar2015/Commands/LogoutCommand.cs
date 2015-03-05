@@ -10,7 +10,13 @@
 
         public override void Execute()
         {
-            throw new System.NotImplementedException();
+            if (!this.Forum.IsLogged)
+            {
+                throw new CommandException(Messages.NotLogged);
+            }
+            this.Forum.CurrentUser = null;
+            this.Forum.Output.AppendLine(Messages.LogoutSuccess);
+            
         }
     }
 }

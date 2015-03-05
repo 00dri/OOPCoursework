@@ -1,6 +1,7 @@
 ﻿namespace ConsoleForum.Entities.Posts
 {
     using System.Collections.Generic;
+    using System.Text;
     using Contracts;
 
     public class Question : IQuestion
@@ -19,5 +20,16 @@
         public IUser Author { get; set; }
         public string Title { get; set; }
         public IList<IAnswer> Answers { get; private set; }
+
+        public override string ToString()
+        {
+            var question = new StringBuilder();
+            question.AppendFormat("[ Question ID: {0} ]", this.Id).AppendLine();
+            question.AppendFormat("Posted by: {0}", this.Author).AppendLine();
+            question.AppendFormat("Question Title: {0}", this.Title).AppendLine();
+            question.AppendFormat("Question Body: {0}", this.Body).AppendLine();
+
+            return question.ToString();
+        }
     }
 }

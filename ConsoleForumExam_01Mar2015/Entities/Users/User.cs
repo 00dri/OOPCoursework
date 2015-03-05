@@ -25,5 +25,10 @@
         public string Email { get; set; }
 
         public IList<IQuestion> Questions { get; private set; }
+
+        public override string ToString()
+        {
+            return this.Username.ToString();
+        }
     }
 }
