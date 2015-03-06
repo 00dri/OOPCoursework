@@ -45,6 +45,8 @@
             this.Forum.Answers.Add(bestAnswer);
             question.Answers.Remove(answer);
             question.Answers.Add(bestAnswer);
+
+            this.Forum.Output.AppendFormat(Messages.BestAnswerSuccess, bestAnswer.Id).AppendLine();
         }
     }
 }

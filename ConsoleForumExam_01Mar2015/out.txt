@@ -16,22 +16,22 @@ Answer with Id: 2 successfully posted
 You do not have enough permission to perform the desired operation
 Logout success
 User pesho successfully logged in
+Operation not permitted. You have to open a question first
 [ Question ID: 1 ]
 Posted by: pesho
 Question Title: WTF!
 Question Body: textExplain
 ====================
 Answers:
-********************
-[ Answer ID: 2 ]
-Posted by: pepi
-Answer Body: PakAz
---------------------
-********************
 [ Answer ID: 1 ]
 Posted by: pepi
 Answer Body: NemashGriji
 --------------------
+[ Answer ID: 2 ]
+Posted by: pepi
+Answer Body: PakAz
+--------------------
+Answer with Id: 2 successfully made best answer
 [ Question ID: 1 ]
 Posted by: pesho
 Question Title: WTF!

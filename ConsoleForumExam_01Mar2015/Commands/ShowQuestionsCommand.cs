@@ -17,6 +17,7 @@
             {
                 throw new CommandException(Messages.NoQuestion);
             }
+            this.Forum.CurrentQuestion = null;
             this.Forum.Output.AppendLine(OutputUtility.ShowSortedQuestions(this.Forum.Questions));
         }
     }
