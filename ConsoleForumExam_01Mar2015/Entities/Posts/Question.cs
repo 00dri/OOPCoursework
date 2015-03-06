@@ -33,13 +33,20 @@
             }
             else
             {
-                //var answersAsString = string.Join(Environment.NewLine, this.Answers.Select(a => a.ToString()));
+                var bestAnswer = this.Answers.FirstOrDefault(a => a is BestAnswer);
+                string answersAsString;
                 question.AppendLine("Answers:");
-                var answers = this.Answers;
-                foreach (var answer in answers)
+                if (bestAnswer != null)
                 {
-                    question.Append(answer.ToString());
+                    question.Append(bestAnswer);
+                    var otherAnswers = this.Answers.Where(a => a.Id != bestAnswer.Id).OrderBy(a => a.Id);
+                    answersAsString = string.Join(Environment.NewLine, otherAnswers.Select(a => a.ToString()));
                 }
+                else
+                {
+                    answersAsString = string.Join(Environment.NewLine, this.Answers.Select(a => a.ToString()));
+                }
+                question.Append(answersAsString);
             }
 
             return question.ToString();
