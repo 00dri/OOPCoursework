@@ -15,7 +15,7 @@
         {
             if (!this.Forum.Questions.Any())
             {
-                throw new CommandException(Messages.NoQuestion);
+                throw new CommandException(Messages.NoQuestions);
             }
             this.Forum.CurrentQuestion = null;
             this.Forum.Output.AppendLine(OutputUtility.ShowSortedQuestions(this.Forum.Questions));
