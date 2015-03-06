@@ -56,6 +56,7 @@
     <Compile Include="ConsoleForumMain.cs" />
     <Compile Include="Entities\Posts\Answer.cs" />
     <Compile Include="Entities\Posts\BestAnswer.cs" />
+    <Compile Include="Entities\Posts\Post.cs" />
     <Compile Include="Entities\Posts\Question.cs" />
     <Compile Include="Entities\Users\Administrator.cs" />
     <Compile Include="Entities\Users\User.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="Contracts\IPost.cs" />
     <Compile Include="Messages.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\OutputUtility.cs" />
     <Compile Include="Utility\PasswordUtility.cs" />
   </ItemGroup>
   <ItemGroup>

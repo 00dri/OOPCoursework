@@ -28,7 +28,7 @@
             }
 
             this.Forum.CurrentUser = existingUser;
-            this.Forum.Output.AppendFormat(Messages.LoginSuccess, existingUser.Username);
+            this.Forum.Output.AppendFormat(Messages.LoginSuccess, existingUser).AppendLine();
         }
     }
 }

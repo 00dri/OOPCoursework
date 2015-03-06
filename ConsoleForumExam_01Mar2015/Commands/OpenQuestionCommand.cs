@@ -1,6 +1,8 @@
 ﻿namespace ConsoleForum.Commands
 {
+    using System.Linq;
     using Contracts;
+    using Utility;
 
     public class OpenQuestionCommand : AbstractCommand
     {
@@ -10,7 +12,15 @@
 
         public override void Execute()
         {
-            throw new System.NotImplementedException();
+            var id = int.Parse(this.Data[1]);
+            var question = this.Forum.Questions.FirstOrDefault(q => q.Id == id);
+
+            if (question == null)
+            {
+                throw new CommandException(Messages.NoQuestion);
+            }
+            this.Forum.Output.AppendLine(question.ToString());
+            this.Forum.CurrentQuestion = question;
         }
     }
 }

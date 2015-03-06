@@ -1,6 +1,8 @@
 ﻿namespace ConsoleForum.Commands
 {
+    using System.Runtime.InteropServices;
     using Contracts;
+    using Entities.Posts;
 
     public class PostAnswerCommand : AbstractCommand
     {
@@ -10,7 +12,23 @@
 
         public override void Execute()
         {
-            throw new System.NotImplementedException();
+            if (!this.Forum.IsLogged)
+            {
+                throw new CommandException(Messages.NotLogged);
+            }
+            if (this.Forum.CurrentQuestion == null)
+            {
+                throw new CommandException(Messages.NoQuestionOpened);
+            }
+
+            var author = this.Forum.CurrentUser;
+            var question = this.Forum.CurrentQuestion;
+            var answerBody = this.Data[1];
+            var answer = new Answer(this.Forum.Answers.Count + 1, answerBody, author);
+            this.Forum.Answers.Add(answer);
+            question.Answers.Add(answer);
+
+            this.Forum.Output.AppendFormat(Messages.PostAnswerSuccess, answer.Id).AppendLine();
         }
     }
 }

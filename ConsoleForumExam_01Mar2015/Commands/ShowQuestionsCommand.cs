@@ -1,7 +1,9 @@
 ﻿namespace ConsoleForum.Commands
 {
+    using System;
     using System.Linq;
     using Contracts;
+    using Utility;
 
     public class ShowQuestionsCommand : AbstractCommand
     {
@@ -15,14 +17,7 @@
             {
                 throw new CommandException(Messages.NoQuestion);
             }
-            var questions = this.Forum.Questions.OrderBy(q => q.Id);
-
-            foreach (var question in questions)
-            {
-                
-            }
-
+            this.Forum.Output.AppendLine(OutputUtility.ShowSortedQuestions(this.Forum.Questions));
         }
-
     }
 }

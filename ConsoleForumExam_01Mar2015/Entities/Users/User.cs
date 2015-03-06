@@ -28,7 +28,7 @@
 
         public override string ToString()
         {
-            return this.Username.ToString();
+            return this.Username;
         }
     }
 }
