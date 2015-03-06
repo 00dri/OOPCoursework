@@ -2,7 +2,6 @@
 {
     using System.Linq;
     using Contracts;
-    using Utility;
 
     public class OpenQuestionCommand : AbstractCommand
     {

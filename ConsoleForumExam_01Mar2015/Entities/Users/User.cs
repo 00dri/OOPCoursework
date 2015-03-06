@@ -1,6 +1,5 @@
 ﻿namespace ConsoleForum.Entities.Users
 {
-    using System;
     using System.Collections.Generic;
 
     using ConsoleForum.Contracts;

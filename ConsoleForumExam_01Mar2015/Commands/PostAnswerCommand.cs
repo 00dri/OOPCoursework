@@ -1,6 +1,5 @@
 ﻿namespace ConsoleForum.Commands
 {
-    using System.Runtime.InteropServices;
     using Contracts;
     using Entities.Posts;
 

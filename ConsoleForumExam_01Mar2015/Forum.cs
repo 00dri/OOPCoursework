@@ -5,7 +5,6 @@
     using System.Text;
 
     using ConsoleForum.Commands;
-    using ConsoleForum.Entities.Users;
     using ConsoleForum.Contracts;
 
     public class Forum : IForum

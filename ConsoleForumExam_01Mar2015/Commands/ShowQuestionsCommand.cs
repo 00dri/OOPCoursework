@@ -1,6 +1,5 @@
 ﻿namespace ConsoleForum.Commands
 {
-    using System;
     using System.Linq;
     using Contracts;
     using Utility;

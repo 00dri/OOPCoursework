@@ -8,16 +8,16 @@
     {
         public static void Main()
         {
-            IForum forum = new Forum();
+            IForum forum = new ExtendedForum();
             forum.Run();
 
             //For testing:
             //var output = new StreamWriter("../../out.txt");
             //using (output)
             //{
-               // Console.SetOut(output);
-                //IForum forum = new Forum();
-                //forum.Run();
+            //    Console.SetOut(output);
+            //    IForum forum = new Forum();
+            //    forum.Run();
             //}
         }
     }
